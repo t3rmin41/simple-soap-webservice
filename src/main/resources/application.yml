@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: my-countries-webservice
+server:
+    port:
+        9999
