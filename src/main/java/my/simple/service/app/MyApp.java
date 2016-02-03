@@ -13,6 +13,6 @@ public class MyApp {
 
     public static void main(String args[]) {
         ApplicationContext context = SpringApplication.run(MyApp.class, args);
-        System.out.println("My countries web service has started");
+        System.out.println("My countries web service has started, context ID : " + context.context.getId());
     }
 }
