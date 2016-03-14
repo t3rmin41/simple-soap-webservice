@@ -55,6 +55,7 @@ local.properties
 *.war
 *.ear
 *.db
+src/main/java/io/*
 
 ######################
 # Windows
@@ -97,3 +98,4 @@ Desktop.ini
 # Maven Wrapper
 ######################
 !.mvn/wrapper/maven-wrapper.jar
+/target/
